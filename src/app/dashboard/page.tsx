@@ -1,23 +1,13 @@
 "use client";
 
-import { usePosts } from "./component/api";
-import PostsTable from "./component/postTable";
-import SearchFilter from "./component/search";
-import Pagination from "./component/pagination";
+import { usePosts } from "../component/api";
+import PostsTable from "../component/postTable";
+import SearchFilter from "../component/search";
+import Pagination from "../component/pagination";
 import { useEffect, useState } from "react";
-import { useAuth } from "./auth/auth.hook";
-import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function Dashboard() {
   const [isClient, setIsClient] = useState(false);
-  const { user } = useAuth();
-  const router = useRouter();
-
-  useEffect(() => {
-    if (!user) {
-      router.push("/login");
-    }
-  }, [user, router]);
 
   useEffect(() => {
     setIsClient(true);
