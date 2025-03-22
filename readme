@@ -1,0 +1,72 @@
+# Dynamic Dashboard with Authentication
+
+A fully functional, dynamic dashboard with authentication, API data fetching & filtering, reusable components, and a responsive layout built with Next.js and Tailwind CSS.
+
+## Features
+
+- **Authentication System**
+  - Login/Logout functionality
+  - Form validation
+  - Protected routes
+  - JWT token management
+
+- **Dashboard**
+  - Header with user info and logout button
+  - Sidebar navigation
+  - Main content area with data display
+  - Search and filter functionality
+  - Pagination
+
+- **API Integration**
+  - Fetch data from JSONPlaceholder API
+  - Client-side filtering and pagination
+  - Error handling
+
+- **Responsive Design**
+  - Mobile-friendly layout
+  - Tailwind CSS styling
+  - Clean and modern UI
+
+## Tech Stack
+
+- **Next.js** - React framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **JSONPlaceholder API** - Mock REST API for testing
+- **Context API** - State management
+- **Local Storage** - JWT token storage
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/dashboard-app.git
+cd dashboard-app
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Login Credentials
+
+- Email: user@example.com
+- Password: password123
